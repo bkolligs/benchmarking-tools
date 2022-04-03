@@ -1,3 +1,0 @@
-[TestPrint] took 2.915ms
-[TestPrintWithoutSTDENDL] took 0.913ms
-[TestSleep] took 1000.12ms
