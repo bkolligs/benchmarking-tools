@@ -1,5 +1,0 @@
-if(EXISTS "/home/benjamin/packages_and_libraries/benchmarking-tools/build/tests/test_timer[1]_tests.cmake")
-  include("/home/benjamin/packages_and_libraries/benchmarking-tools/build/tests/test_timer[1]_tests.cmake")
-else()
-  add_test(test_timer_NOT_BUILT test_timer_NOT_BUILT)
-endif()

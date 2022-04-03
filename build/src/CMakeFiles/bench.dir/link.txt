@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbench.a CMakeFiles/bench.dir/bench/instrumentation.cpp.o CMakeFiles/bench.dir/bench/scope_timer.cpp.o
-/usr/bin/ranlib libbench.a
