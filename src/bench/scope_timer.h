@@ -5,6 +5,14 @@
 
 namespace bench {
 
+/* Specify the level to return time at */
+enum class TimeLevel {
+	seconds = 0,
+	milliseconds,
+	microseconds,
+	nanoseconds
+};
+
 class ScopeTimer {
     private:
         /* Since we're using an outstream here we can base references to the

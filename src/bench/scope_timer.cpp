@@ -12,6 +12,7 @@ ScopeTimer::~ScopeTimer() {
 	auto end = std::chrono::time_point_cast<std::chrono::microseconds>(end_point_);
 	auto duration = end - start;
 	double ms = duration.count() * 0.001;
-	out_file_ << "[" << timer_name_ << "] took " << ms << "ms" << std::endl;
+	out_file_ << "[" << timer_name_ << "] Duration:" << ms << "ms" << std::endl;
+	
 }
 }  // namespace bench
