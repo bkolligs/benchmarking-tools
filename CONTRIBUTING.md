@@ -7,7 +7,7 @@ These guidelines are to make sure style conforms across the project.
 | Data                           | Naming Style         |
 |--------------------------------|----------------------|
 | Variables                      | snake_case           |
-| Functions                      | pascalCase           |
+| Functions                      | camelBack            |
 | Classes                        | CamelCase            |
 | Class private member variables | trailing_underscore_ |
 
